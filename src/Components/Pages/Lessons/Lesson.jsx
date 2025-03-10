@@ -240,7 +240,7 @@ const Lesson = () => {
                       ? isCorrect
                         ? "border-green-500 bg-green-50"
                         : option.id === currentQuestion.answer
-                        ? "border-green-500 bg-green-100"
+                        ? "border-green-500 bg-green-200"
                         : "border-red-500 bg-red-50"
                       : "border-blue-500"
                     : option.id === currentQuestion.answer && showStatus
