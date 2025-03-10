@@ -1,0 +1,262 @@
+[
+    {
+      "language": "Albanian",
+      "country_flag": "🇦🇱"
+    },
+    {
+      "language": "Arabic",
+      "country_flag": "🇸🇦"
+    },
+    {
+      "language": "Armenian",
+      "country_flag": "🇦🇲"
+    },
+    {
+      "language": "Azerbaijani",
+      "country_flag": "🇦🇿"
+    },
+    {
+      "language": "Belarusian",
+      "country_flag": "🇧🇾"
+    },
+    {
+      "language": "Bengali",
+      "country_flag": "🇧🇩"
+    },
+    {
+      "language": "Bosnian",
+      "country_flag": "🇧🇦"
+    },
+    {
+      "language": "Bulgarian",
+      "country_flag": "🇧🇬"
+    },
+    {
+      "language": "Burmese",
+      "country_flag": "🇲🇲"
+    },
+    {
+      "language": "Catalan",
+      "country_flag": "🇦🇩"
+    },
+    {
+      "language": "Chinese (Mandarin)",
+      "country_flag": "🇨🇳"
+    },
+    {
+      "language": "Croatian",
+      "country_flag": "🇭🇷"
+    },
+    {
+      "language": "Czech",
+      "country_flag": "🇨🇿"
+    },
+    {
+      "language": "Danish",
+      "country_flag": "🇩🇰"
+    },
+    {
+      "language": "Dutch",
+      "country_flag": "🇳🇱"
+    },
+    {
+      "language": "English",
+      "country_flag": "🇬🇧"
+    },
+    {
+      "language": "Estonian",
+      "country_flag": "🇪🇪"
+    },
+    {
+      "language": "Finnish",
+      "country_flag": "🇫🇮"
+    },
+    {
+      "language": "French",
+      "country_flag": "🇫🇷"
+    },
+    {
+      "language": "Georgian",
+      "country_flag": "🇬🇪"
+    },
+    {
+      "language": "German",
+      "country_flag": "🇩🇪"
+    },
+    {
+      "language": "Greek",
+      "country_flag": "🇬🇷"
+    },
+    {
+      "language": "Gujarati",
+      "country_flag": "🇮🇳"
+    },
+    {
+      "language": "Hebrew",
+      "country_flag": "🇮🇱"
+    },
+    {
+      "language": "Hindi",
+      "country_flag": "🇮🇳"
+    },
+    {
+      "language": "Hungarian",
+      "country_flag": "🇭🇺"
+    },
+    {
+      "language": "Icelandic",
+      "country_flag": "🇮🇸"
+    },
+    {
+      "language": "Indonesian",
+      "country_flag": "🇮🇩"
+    },
+    {
+      "language": "Irish",
+      "country_flag": "🇮🇪"
+    },
+    {
+      "language": "Italian",
+      "country_flag": "🇮🇹"
+    },
+    {
+      "language": "Japanese",
+      "country_flag": "🇯🇵"
+    },
+    {
+      "language": "Kazakh",
+      "country_flag": "🇰🇿"
+    },
+    {
+      "language": "Khmer",
+      "country_flag": "🇰🇭"
+    },
+    {
+      "language": "Korean",
+      "country_flag": "🇰🇷"
+    },
+    {
+      "language": "Kyrgyz",
+      "country_flag": "🇰🇬"
+    },
+    {
+      "language": "Lao",
+      "country_flag": "🇱🇦"
+    },
+    {
+      "language": "Latvian",
+      "country_flag": "🇱🇻"
+    },
+    {
+      "language": "Lithuanian",
+      "country_flag": "🇱🇹"
+    },
+    {
+      "language": "Macedonian",
+      "country_flag": "🇲🇰"
+    },
+    {
+      "language": "Malay",
+      "country_flag": "🇲🇾"
+    },
+    {
+      "language": "Maltese",
+      "country_flag": "🇲🇹"
+    },
+    {
+      "language": "Mongolian",
+      "country_flag": "🇲🇳"
+    },
+    {
+      "language": "Nepali",
+      "country_flag": "🇳🇵"
+    },
+    {
+      "language": "Norwegian",
+      "country_flag": "🇳🇴"
+    },
+    {
+      "language": "Pashto",
+      "country_flag": "🇦🇫"
+    },
+    {
+      "language": "Persian",
+      "country_flag": "🇮🇷"
+    },
+    {
+      "language": "Polish",
+      "country_flag": "🇵🇱"
+    },
+    {
+      "language": "Portuguese",
+      "country_flag": "🇵🇹"
+    },
+    {
+      "language": "Romanian",
+      "country_flag": "🇷🇴"
+    },
+    {
+      "language": "Russian",
+      "country_flag": "🇷🇺"
+    },
+    {
+      "language": "Serbian",
+      "country_flag": "🇷🇸"
+    },
+    {
+      "language": "Slovak",
+      "country_flag": "🇸🇰"
+    },
+    {
+      "language": "Slovenian",
+      "country_flag": "🇸🇮"
+    },
+    {
+      "language": "Spanish",
+      "country_flag": "🇪🇸"
+    },
+    {
+      "language": "Swahili",
+      "country_flag": "🇹🇿"
+    },
+    {
+      "language": "Swedish",
+      "country_flag": "🇸🇪"
+    },
+    {
+      "language": "Tajik",
+      "country_flag": "🇹🇯"
+    },
+    {
+      "language": "Thai",
+      "country_flag": "🇹🇭"
+    },
+    {
+      "language": "Turkish",
+      "country_flag": "🇹🇷"
+    },
+    {
+      "language": "Turkmen",
+      "country_flag": "🇹🇲"
+    },
+    {
+      "language": "Ukrainian",
+      "country_flag": "🇺🇦"
+    },
+    {
+      "language": "Urdu",
+      "country_flag": "🇵🇰"
+    },
+    {
+      "language": "Uzbek",
+      "country_flag": "🇺🇿"
+    },
+    {
+      "language": "Vietnamese",
+      "country_flag": "🇻🇳"
+    },
+    {
+      "language": "Welsh",
+      "country_flag": "🇬🇧"
+    }
+  ]

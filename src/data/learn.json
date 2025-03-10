@@ -1,0 +1,242 @@
+[
+    {
+      "language": "Spanish",
+      "num_learners_string": "50.2M learners",
+      "language_code": "es",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/59a90a2cedd48b751a8fd22014768fd7.svg"
+    },
+    {
+      "language": "French",
+      "num_learners_string": "27.9M learners",
+      "language_code": "fr",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/482fda142ee4abd728ebf4ccce5d3307.svg"
+    },
+    {
+      "language": "Japanese",
+      "num_learners_string": "25.2M learners",
+      "language_code": "ja",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/edea4fa18ff3e7d8c0282de3f102aaed.svg"
+    },
+    {
+      "language": "German",
+      "num_learners_string": "19.4M learners",
+      "language_code": "de",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/c71db846ffab7e0a74bc6971e34ad82e.svg"
+    },
+    {
+      "language": "Korean",
+      "num_learners_string": "18.9M learners",
+      "language_code": "ko",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/ec5835ac9f465ff3dad4b1b8725d4314.svg"
+    },
+    {
+      "language": "Italian",
+      "num_learners_string": "13.6M learners",
+      "language_code": "it",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/635a09df9323279d39934a991edd4510.svg"
+    },
+    {
+      "language": "Chinese",
+      "num_learners_string": "12M learners",
+      "language_code": "zh",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/9905aa3a86fcb9e351b0b3bfaf04d8b9.svg"
+    },
+    {
+      "language": "Hindi",
+      "num_learners_string": "11.3M learners",
+      "language_code": "hi",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/73837fa39dbf1bcc4c95a17a58ed0ffb.svg"
+    },
+    {
+      "language": "Russian",
+      "num_learners_string": "9.84M learners",
+      "language_code": "ru",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/eadd7804652170c33814a89482f1f353.svg"
+    },
+    {
+      "language": "Arabic",
+      "num_learners_string": "8.64M learners",
+      "language_code": "ar",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/9ab6930a263c981b57f9d578ac97cae7.svg"
+    },
+    {
+      "language": "Portuguese",
+      "num_learners_string": "6.29M learners",
+      "language_code": "pt",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/27d253ae1272917fc9f4a79459aacd53.svg"
+    },
+    {
+      "language": "Turkish",
+      "num_learners_string": "4.99M learners",
+      "language_code": "tr",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/bc80a9518cd6d5af6ae14e8b22b8a1f4.svg"
+    },
+    {
+      "language": "English",
+      "num_learners_string": "4.79M learners",
+      "language_code": "en",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/bbe17e16aa4a106032d8e3521eaed13e.svg"
+    },
+    {
+      "language": "Dutch",
+      "num_learners_string": "3.37M learners",
+      "language_code": "nl-NL",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/de945d789e249dcd74333a6996472ef8.svg"
+    },
+    {
+      "language": "Greek",
+      "num_learners_string": "2.96M learners",
+      "language_code": "el",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/8db373482261397a3159d3f370eed2f3.svg"
+    },
+    {
+      "language": "Vietnamese",
+      "num_learners_string": "2.86M learners",
+      "language_code": "vi",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/2b077d42185bc45d4896ed55f15c4fea.svg"
+    },
+    {
+      "language": "Polish",
+      "num_learners_string": "2.66M learners",
+      "language_code": "pl",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/f095084e6ec400e631d62c3d95fefaa2.svg"
+    },
+    {
+      "language": "Swedish",
+      "num_learners_string": "2.41M learners",
+      "language_code": "sv",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/f578430c9b7ab617c107893afbb501c0.svg"
+    },
+    {
+      "language": "Latin",
+      "num_learners_string": "2.33M learners",
+      "language_code": "la",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/f7cee6cc09270371b097129faf792c2a.svg"
+    },
+    {
+      "language": "Irish",
+      "num_learners_string": "2.03M learners",
+      "language_code": "ga",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/ef0bfb96037b127473bd7bcbfde1a6ed.svg"
+    },
+    {
+      "language": "Norwegian (Bokmål)",
+      "num_learners_string": "1.81M learners",
+      "language_code": "no-BO",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/90b37d97edc66e830dc2286279548f67.svg"
+    },
+    {
+      "language": "Hebrew",
+      "num_learners_string": "1.7M learners",
+      "language_code": "he",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/f818f545a703ddaa046ca8786e781742.svg"
+    },
+    {
+      "language": "High Valyrian",
+      "num_learners_string": "1.58M learners",
+      "language_code": "hv",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/2880099b038848abbfd11104097953ad.svg"
+    },
+    {
+      "language": "Ukrainian",
+      "num_learners_string": "1.47M learners",
+      "language_code": "uk",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/7c6e12bc57527843082f7f5bb77c9862.svg"
+    },
+    {
+      "language": "Indonesian",
+      "num_learners_string": "1.44M learners",
+      "language_code": "id",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/339c0413e542f19b234971d7740447e7.svg"
+    },
+    {
+      "language": "Romanian",
+      "num_learners_string": "1.19M learners",
+      "language_code": "ro",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/357e13bb10cf86fc06552d563957e2e6.svg"
+    },
+    {
+      "language": "Finnish",
+      "num_learners_string": "1.18M learners",
+      "language_code": "fi",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/b4d0e4f6451f504e1441eb93efdbea5e.svg"
+    },
+    {
+      "language": "Danish",
+      "num_learners_string": "1.11M learners",
+      "language_code": "da",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/6af84a7cb8e99ea8a567c2b9c55b9926.svg"
+    },
+    {
+      "language": "Czech",
+      "num_learners_string": "998K learners",
+      "language_code": "cs",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/828bf0fea457d3beaaab3d6c0bfcc975.svg"
+    },
+    {
+      "language": "Zulu",
+      "num_learners_string": "929K learners",
+      "language_code": "zu",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/112e1531d0ac198a9424bd1b0a7166e6.svg"
+    },
+    {
+      "language": "Hawaiian",
+      "num_learners_string": "876K learners",
+      "language_code": "hw",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/312e21f793c555787d01a45e20ee8191.svg"
+    },
+    {
+      "language": "Welsh",
+      "num_learners_string": "776K learners",
+      "language_code": "cy",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/f773f1b240623072e48843ecdf90d756.svg"
+    },
+    {
+      "language": "Swahili",
+      "num_learners_string": "737K learners",
+      "language_code": "sw",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/335311988405b4354e1b6ae9037c02db.svg"
+    },
+    {
+      "language": "Hungarian",
+      "num_learners_string": "735K learners",
+      "language_code": "hu",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/2ed8d0a73eab3c9cba0290e2b459684a.svg"
+    },
+    {
+      "language": "Scottish Gaelic",
+      "num_learners_string": "645K learners",
+      "language_code": "gd",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/09eba3135efe8fe93a4662dba813b921.svg"
+    },
+    {
+      "language": "Haitian Creole",
+      "num_learners_string": "603K learners",
+      "language_code": "ht",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/8cb302b44c183c1a8ec3b90caf90d922.svg"
+    },
+    {
+      "language": "Esperanto",
+      "num_learners_string": "432K learners",
+      "language_code": "eo",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/6de7e4731b2a82a6458268e1a3d67ce4.svg"
+    },
+    {
+      "language": "Klingon",
+      "num_learners_string": "419K learners",
+      "language_code": "tlh",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/76d654213a8282b0ebc25b4f535ee003.svg"
+    },
+    {
+      "language": "Navajo",
+      "num_learners_string": "369K learners",
+      "language_code": "nv",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/bbc8ad0cfe2596d5193376ebdc3e969c.svg"
+    },
+    {
+      "language": "Yiddish",
+      "num_learners_string": "361K learners",
+      "language_code": "yi",
+      "image_url": "https://d35aaqx5ub95lt.cloudfront.net/vendor/55bad151fa6a8d9e2376fc9697c671c8.svg"
+    }
+  ]
