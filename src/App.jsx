@@ -4,7 +4,7 @@ import Home from "./Components/HomePage/Home";
 import Footer from "./Components/Common/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LanguageSelector from "./Components/Pages/GetStarted";
-import Welcome from "./Components/Pages/Welcome";
+import Welcome from "./Components/Pages/WelcomeFlow";
 import Lesson from "./Components/Pages/Lessons/Lesson";
 
 const App = () => {
