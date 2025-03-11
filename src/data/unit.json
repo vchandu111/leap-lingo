@@ -1,0 +1,179 @@
+{
+    "units": [
+      {
+        "id": 1,
+        "title": "Unit 1 Guidebook",
+        "description": "Explore grammar tips and key phrases for this unit",
+        "sections": [
+          {
+            "title": "Key Phrases",
+            "phrases": [
+              {"French": "Je suis Marie.", "English": "I am Marie."},
+              {"French": "C'est un chat.", "English": "It's a cat."},
+              {"French": "Un chat mange.", "English": "A cat is eating."},
+              {"French": "Paul mange un croissant.", "English": "Paul is eating a croissant."},
+              {"French": "Tu es Marc ?", "English": "Are you Marc?"},
+              {"French": "Non, je suis Paul.", "English": "No, I am Paul."}
+            ]
+          },
+          {
+            "title": "Gender",
+            "description": "In French, all nouns are either masculine or feminine. Masculine nouns use un, and feminine nouns use une.",
+            "examples": [
+              {"French": "un garçon", "English": "a boy"},
+              {"French": "une fille", "English": "a girl"},
+              {"French": "un homme", "English": "a man"},
+              {"French": "une femme", "English": "a woman"},
+              {"French": "un chien", "English": "a dog"},
+              {"French": "une pizza", "English": "a pizza"}
+            ]
+          },
+          {
+            "title": "I think, therefore...",
+            "description": "In English, we say 'I am' but you are. In French, you do the same thing!",
+            "conjugation": [
+              {"subject": "je", "verb": "suis", "English": "I am"},
+              {"subject": "tu", "verb": "es", "English": "you are"},
+              {"subject": "il / elle", "verb": "est", "English": "he / she is"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Unit 2 Guidebook",
+        "description": "Further explore grammar and vocabulary for this unit",
+        "sections": [
+          {
+            "title": "Key Phrases",
+            "phrases": [
+              {"French": "Je vais bien.", "English": "I am well."},
+              {"French": "Elle a un livre.", "English": "She has a book."},
+              {"French": "Ils chantent.", "English": "They are singing."},
+              {"French": "Nous jouons au football.", "English": "We play football."},
+              {"French": "Vous êtes là ?", "English": "Are you there?"},
+              {"French": "Oui, nous sommes ici.", "English": "Yes, we are here."}
+            ]
+          },
+          {
+            "title": "Articles",
+            "description": "French articles may vary between definite, indefinite, and partitive.",
+            "examples": [
+              {"French": "le garçon", "English": "the boy"},
+              {"French": "la fille", "English": "the girl"},
+              {"French": "les hommes", "English": "the men"},
+              {"French": "un animal", "English": "an animal"},
+              {"French": "des livres", "English": "some books"}
+            ]
+          },
+          {
+            "title": "Negation",
+            "description": "French negation changes the verb phrase to express 'not'.",
+            "conjugation": [
+              {"subject": "je", "verb": "ne suis pas", "English": "I am not"},
+              {"subject": "tu", "verb": "n'es pas", "English": "you are not"},
+              {"subject": "il / elle", "verb": "n'est pas", "English": "he / she is not"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Unit 3 Guidebook",
+        "description": "Deepen your understanding of French language structures.",
+        "sections": [
+          {
+            "title": "Key Phrases",
+            "phrases": [
+              {"French": "Nous avons un chien.", "English": "We have a dog."},
+              {"French": "Elles veulent des chocolats.", "English": "They want some chocolates."},
+              {"French": "Il fait chaud aujourd'hui.", "English": "It is hot today."},
+              {"French": "Vous prenez un café?", "English": "Are you having a coffee?"},
+              {"French": "Je ne sais pas.", "English": "I don't know."}
+            ]
+          },
+          {
+            "title": "Possessive Adjectives",
+            "description": "Possessive adjectives change according to the gender and number of the noun they modify.",
+            "examples": [
+              {"French": "mon livre", "English": "my book"},
+              {"French": "ta voiture", "English": "your car"},
+              {"French": "ses fleurs", "English": "her flowers"},
+              {"French": "notre maison", "English": "our house"},
+              {"French": "vos questions", "English": "your questions"}
+            ]
+          },
+          {
+            "title": "Question Formation",
+            "description": "Learn different ways to form questions in French.",
+            "examples": [
+              {"French": "Est-ce que tu aimes la pizza?", "English": "Do you like pizza?"},
+              {"French": "Où est la gare?", "English": "Where is the station?"},
+              {"French": "Pourquoi pleures-tu?", "English": "Why are you crying?"},
+              {"French": "Comment vas-tu?", "English": "How are you?"},
+              {"French": "Quand partons-nous?", "English": "When are we leaving?"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Unit 4 Guidebook",
+        "description": "Expand your vocabulary and learn about French culture.",
+        "sections": [
+          {
+            "title": "Cultural Insights",
+            "description": "Discover aspects of French culture through language.",
+            "examples": [
+              {"French": "La bise est une façon de saluer.", "English": "The kiss is a way of greeting."},
+              {"French": "Les repas en France sont souvent longs.", "English": "Meals in France are often long."},
+              {"French": "Le théâtre est populaire en France.", "English": "Theater is popular in France."},
+              {"French": "La mode est une partie importante de la culture française.", "English": "Fashion is an important part of French culture."},
+              {"French": "La fête nationale est le 14 juillet.", "English": "The national holiday is July 14th."}
+            ]
+          },
+          {
+            "title": "Common Expressions",
+            "description": "Learn expressions commonly used in French conversation.",
+            "phrases": [
+              {"French": "C'est la vie!", "English": "That's life!"},
+              {"French": "Je t'en prie.", "English": "You're welcome."},
+              {"French": "Ça ne fait rien.", "English": "It doesn't matter."},
+              {"French": "Quelle heure est-il?", "English": "What time is it?"},
+              {"French": "Je suis désolé.", "English": "I'm sorry."}
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Unit 5 Guidebook",
+        "description": "Master complex sentence structures and advanced grammar.",
+        "sections": [
+          {
+            "title": "Advanced Grammar",
+            "description": "Tackle complex grammatical constructions.",
+            "examples": [
+              {"French": "Si j'avais su, j'aurais réagi différemment.", "English": "If I had known, I would have reacted differently."},
+              {"French": "Bien que je sois fatigué, je vais sortir.", "English": "Although I am tired, I will go out."},
+              {"French": "Elle parle comme si elle savait tout.", "English": "She speaks as if she knew everything."},
+              {"French": "Je viendrai pourvu que tu m'invites.", "English": "I will come provided that you invite me."},
+              {"French": "Après que nous avons mangé, nous avons pris un café.", "English": "After we ate, we had a coffee."}
+            ]
+          },
+          {
+            "title": "Subjunctive Mood",
+            "description": "Understand and use the subjunctive mood to express desires, doubts, and possibilities.",
+            "examples": [
+              {"French": "Il faut que tu fasses tes devoirs.", "English": "You need to do your homework."},
+              {"French": "Je souhaite que vous veniez demain.", "English": "I wish you would come tomorrow."},
+              {"French": "Bien qu'il soit petit, il est fort.", "English": "Although he is small, he is strong."},
+              {"French": "Pour que la paix soit possible, il est nécessaire de communiquer.", "English": "For peace to be possible, communication is necessary."},
+              {"French": "J'espère que tu comprendras.", "English": "I hope you will understand."}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

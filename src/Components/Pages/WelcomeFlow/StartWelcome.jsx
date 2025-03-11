@@ -40,7 +40,7 @@ const PathWelcome = ({
     if (selection === "intermediate") {
         navigate("/lesson");
     } else {
-        navigate("/learning");
+        navigate("/learn");
     }
   };
 

@@ -6,6 +6,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LanguageSelector from "./Components/Pages/GetStarted";
 import Welcome from "./Components/Pages/WelcomeFlow";
 import Lesson from "./Components/Pages/Lessons/Lesson";
+import Learn from "./Components/Pages/Learn/Learn";
+import Unit from "./Components/Pages/Learn/Unit/Unit";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
         <Route path="/get-started" element={<LanguageSelector />} />
         <Route path="/welcome" element={<Welcome />} />
         <Route path="/lesson" element={<Lesson />} />
+        <Route path="/learn" element={<Learn />} />
+        <Route path="/learn/guidebook/:unitId" element={<Unit />} />
 
       </Routes>
       <Footer />
