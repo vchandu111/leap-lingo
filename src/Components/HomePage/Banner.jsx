@@ -28,7 +28,7 @@ const Banner = () => {
             GET STARTED
           </button>
           
-          <button className="w-full py-4 px-6 bg-white text-blue-500 font-bold border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors">
+          <button onClick={()=>navigate('/login')} className="w-full py-4 px-6 bg-white text-blue-500 font-bold border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors">
             I ALREADY HAVE AN ACCOUNT
           </button>
         </div>

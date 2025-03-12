@@ -1,6 +1,6 @@
 import React from 'react';
 import { Zap, Edit2 } from 'lucide-react';
-
+import { useNavigate } from 'react-router-dom';
 // RightSidebar Component
 const RightSidebar = () => {
   return (
@@ -70,6 +70,7 @@ const XpProgress = () => {
 
 // Profile Prompt Component
 const ProfilePrompt = () => {
+  const navigate = useNavigate();
   return (
     <div className="bg-white rounded-xl p-4 shadow-sm">
       <h3 className="text-lg font-bold text-gray-700 mb-2">Create a profile to save your progress!</h3>
@@ -77,7 +78,7 @@ const ProfilePrompt = () => {
         <button className="bg-green-500 text-white py-3 px-4 rounded-xl font-bold">
           CREATE A PROFILE
         </button>
-        <button className="bg-blue-400 text-white py-3 px-4 rounded-xl font-bold">
+        <button onClick={()=>navigate('/login')} className="bg-blue-400 text-white py-3 px-4 rounded-xl font-bold">
           SIGN IN
         </button>
       </div>

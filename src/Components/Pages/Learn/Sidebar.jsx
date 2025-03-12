@@ -12,7 +12,6 @@ const Sidebar = () => {
         <NavItem icon={<Home className="text-blue-400" />} label="LEARN" active link="/learn" />
         <NavItem icon={<ShoppingBag className="text-red-400" />} label="SHOP" link="/shop" />
         <NavItem icon={<User className="text-purple-400" />} label="PROFILE" link="/profile" />
-        <NavItem icon={<MoreHorizontal className="text-purple-300" />} label="MORE" link="/more" />
       </nav>
     </div>
   );

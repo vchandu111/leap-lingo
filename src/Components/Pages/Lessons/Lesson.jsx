@@ -125,7 +125,7 @@ const Lesson = () => {
         pauseOnHover: true,
         draggable: true,
       }); // Reset the lesson for this demo
-      navigate("/learning");
+      navigate("/learn");
     }
   };
 

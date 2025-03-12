@@ -8,6 +8,8 @@ import Welcome from "./Components/Pages/WelcomeFlow";
 import Lesson from "./Components/Pages/Lessons/Lesson";
 import Learn from "./Components/Pages/Learn/Learn";
 import Unit from "./Components/Pages/Learn/Unit/Unit";
+import Login from "./Auth/Login";
+import Signup from "./Auth/Signup";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
         <Route path="/welcome" element={<Welcome />} />
         <Route path="/lesson" element={<Lesson />} />
         <Route path="/learn" element={<Learn />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/learn/guidebook/:unitId" element={<Unit />} />
 
       </Routes>
