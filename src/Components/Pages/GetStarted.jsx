@@ -17,7 +17,7 @@ const LanguageSelector = () => {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">I want to learn...</h1>
       
-      <div className="grid grid-cols-1 container mx-auto md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 container mx-auto md:grid-cols-2 lg:grid-cols-5 gap-8">
         {languageData.map((language) => (
           <div 
             key={language.language_code} 
