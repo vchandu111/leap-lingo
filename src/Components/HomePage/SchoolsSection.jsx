@@ -1,5 +1,5 @@
 import React from 'react';
-
+import schoolsImage from '../../assets/images/schools.svg';
 const SchoolsSection = () => {
   return (
     <div className="w-full py-16 px-4 bg-white border-t border-b border-gray-200 container mx-auto">
@@ -8,7 +8,7 @@ const SchoolsSection = () => {
           {/* Left side image */}
           <div className="w-full md:w-2/5 flex justify-center md:justify-start">
             <img 
-              src="../../../public/assets/images/schools.svg" 
+              src={schoolsImage}
               alt="Student progress dashboard on laptop"
               className="w-full max-w-sm"
             />

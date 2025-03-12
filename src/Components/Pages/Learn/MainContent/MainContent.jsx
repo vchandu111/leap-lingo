@@ -56,19 +56,19 @@ const MainContent = () => {
           
           {index < units.length - 1 && (
             <div className="flex flex-col items-center gap-4 py-2">
-              <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center ml-12">
                 <Star className="text-green-500" size={24} />
               </div>
-              <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center -ml-12">
                 <Book className="text-gray-400" size={24} />
               </div>
-              <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center ml-12">
                 <Lock className="text-gray-400" size={24} />
               </div>
-              <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center -ml-12">
                 <Book className="text-gray-400" size={24} />
               </div>
-              <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center ml-12">
                 <Trophy className="text-gray-400" size={24} />
               </div>
             </div>

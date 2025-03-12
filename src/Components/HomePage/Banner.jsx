@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import bannerImage from '../../assets/images/banner.webp'; // Import the image
 
 const Banner = () => {
     const navigate = useNavigate()
@@ -9,7 +10,7 @@ const Banner = () => {
       <div className="w-full md:w-1/2 flex justify-center">
         <div className="max-w-md">
           <img 
-            src="../../../public/assets/images/banner.webp" 
+            src={bannerImage}
             alt="Leap Lingo characters" 
             className="w-full h-auto"
           />

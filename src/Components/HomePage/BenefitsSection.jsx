@@ -1,6 +1,6 @@
 import React from 'react';
 import { Flame, Crown, CheckCircle, PartyPopper } from 'lucide-react';
-
+import laptopImage from '../../assets/images/laptop.svg';
 const BenefitsSection = () => {
   return (
     <div className="w-full py-16 px-4 bg-white">
@@ -39,7 +39,7 @@ const BenefitsSection = () => {
           {/* Center column with app image */}
           <div className="flex justify-center">
             <img 
-              src="../../../public/assets/images/laptop.svg" 
+              src={laptopImage}
               alt="Leap Lingo App" 
               className="max-w-full h-auto rounded-lg shadow-lg"
             />

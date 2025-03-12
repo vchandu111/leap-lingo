@@ -1,5 +1,5 @@
 import React from "react";
-
+import divImage from '../../assets/images/div.svg';
 const ResearchSection = () => {
   return (
     <div className="w-full py-16 px-4 bg-white border-b border-gray-200">
@@ -8,7 +8,7 @@ const ResearchSection = () => {
           {/* Left side content - keeping the order reversed from the schools section */}
           <div className="w-full md:w-2/5 flex justify-center md:justify-end order-1 md:order-2">
             <img
-              src="../../../public/assets/images/div.svg"
+              src={divImage}
               alt="Leap Lingo mascot with chart"
               className="w-full max-w-xs"
             />

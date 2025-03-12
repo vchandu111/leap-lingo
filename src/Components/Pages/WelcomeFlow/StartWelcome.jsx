@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Book, GraduationCap } from "lucide-react";
 import { useNavigate } from "react-router-dom"; // Import useHistory
+import path1Image from "../../../assets/images/path-1.svg";
+import path2Image from "../../../assets/images/path-2.svg";
 
 // Path Selection Component
 const PathWelcome = ({
@@ -52,7 +54,7 @@ const PathWelcome = ({
       subtitle: "Start from scratch!",
       Icon: Book,
       color: "text-green-500",
-      img: "../../../../public/assets/images/path-1.svg",
+      img: path1Image,
     },
     {
       id: "intermediate",
@@ -60,7 +62,7 @@ const PathWelcome = ({
       subtitle: "Check your level here!",
       Icon: GraduationCap,
       color: "text-green-500",
-      img: "../../../../public/assets/images/path-2.svg",
+      img: path2Image,
     },
   ];
 

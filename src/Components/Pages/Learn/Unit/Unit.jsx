@@ -1,46 +1,29 @@
-import React, { useCallback, useState } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
 import unitData from "../../../../data/unit.json";
 import Layout from "../Layout";
 import { Volume2, Volume } from "lucide-react";
-
+import useSpeechSynthesis from "../../../../Hooks/useSpeechSynthesis";
+import owlImage from "../../../../assets/images/owl.svg";
 const Unit = () => {
   const { unitId } = useParams();
   const unit = unitData.units.find((unit) => unit.id === parseInt(unitId));
-  const [speakingId, setSpeakingId] = useState(null);
-
-  const speak = useCallback((text, id) => {
-    // Cancel any ongoing speech
-    window.speechSynthesis.cancel();
-
-    // Create and configure utterance
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "fr-FR";
-    
-    // Get French voice if available
-    const voices = window.speechSynthesis.getVoices();
-    const frenchVoice = voices.find(voice => voice.lang.startsWith('fr'));
-    if (frenchVoice) {
-      utterance.voice = frenchVoice;
-    }
-
-    setSpeakingId(id);
-    // Speak the text
-    window.speechSynthesis.speak(utterance);
-    
-    utterance.onend = () => {
-      setSpeakingId(null);
-    };
-  }, []);
+  const { speak, speakingId } = useSpeechSynthesis("fr-FR");
 
   const PhraseCard = ({ french, english, id }) => (
     <div className="p-3 w-fit rounded-lg shadow-md transition-colors">
       <div className="flex items-center gap-3">
         <button
-          className={`text-blue-500 hover:text-blue-600 transition-transform ${speakingId === id ? 'scale-110' : ''}`}
+          className={`text-blue-500 hover:text-blue-600 transition-transform ${
+            speakingId === id ? "scale-110" : ""
+          }`}
           onClick={() => speak(french, id)}
         >
-          {speakingId === id ? <Volume2 size={20} className="animate-pulse text-red-600" /> : <Volume className="text-red-600" size={20} />}
+          {speakingId === id ? (
+            <Volume2 size={20} className="animate-pulse text-red-600" />
+          ) : (
+            <Volume className="text-red-600" size={20} />
+          )}
         </button>
         <span className="font-medium text-gray-900">{french}</span>
       </div>
@@ -51,9 +34,14 @@ const Unit = () => {
   return (
     <Layout>
       <div className="space-y-6">
-        <div className="bg-white rounded-xl p-6 shadow-sm">
-          <h1 className="text-3xl font-bold mb-2">{unit.title}</h1>
-          <p className="text-gray-600 text-lg">{unit.description}</p>
+        <div className="bg-white rounded-xl p-6 shadow-sm flex items-center gap-4">
+          <div>
+            <img src={owlImage} alt="" /> 
+          </div>
+          <div>
+            <h1 className="text-3xl font-bold mb-2">{unit.title}</h1>
+            <p className="text-gray-600 text-lg">{unit.description}</p>
+          </div>
         </div>
 
         {unit.sections.map((section, index) => (

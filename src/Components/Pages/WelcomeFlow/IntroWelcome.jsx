@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import hiImage from '../../../assets/images/hi.webp';
 // Initial Welcome Component (Intro)
 const IntroWelcome = ({ onContinue, onBack }) => {
   const [isSpeechBubbleVisible, setIsSpeechBubbleVisible] = useState(false);
@@ -58,7 +58,7 @@ const IntroWelcome = ({ onContinue, onBack }) => {
               : 'opacity-0 scale-95'}
           `}
         >
-          <img src="../../../public/assets/images/hi.webp" alt="Duo mascot"/>
+          <img src={hiImage} alt="Duo mascot"/>
         </div>
       </div>
       

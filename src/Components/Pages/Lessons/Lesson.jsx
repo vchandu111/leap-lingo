@@ -19,10 +19,11 @@ import {
   HelpCircle,
   CheckCircle,
   XCircle,
-  Volume2
+  Volume2,
 } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import useSpeechSynthesis from "../../../Hooks/useSpeechSynthesis";
 
 const Lesson = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -32,6 +33,9 @@ const Lesson = () => {
   const [isCorrect, setIsCorrect] = useState(false);
   const [showStatus, setShowStatus] = useState(false);
   const navigate = useNavigate();
+
+  // Use the custom hook
+  const { speak, speakingId } = useSpeechSynthesis();
 
   // Add refs for the audio elements
   const correctSoundRef = useRef(null);
@@ -45,11 +49,9 @@ const Lesson = () => {
   // Initialize sound refs
   useEffect(() => {
     correctSoundRef.current = new Audio(
-      "../../../../public/assets/images/audio/success.mp3"
+      "../../../assets/images/audio/success.mp3"
     ); // Update with your actual path
-    wrongSoundRef.current = new Audio(
-      "../../../../public/assets/images/audio/wrong.mp3"
-    ); // Update with your actual path
+    wrongSoundRef.current = new Audio("../../../assets/images/audio/wrong.mp3"); // Update with your actual path
 
     // Initialize text-to-speech audio element
     textToSpeechRef.current = new Audio();
@@ -71,31 +73,13 @@ const Lesson = () => {
     };
   }, []);
 
-  // Function to speak the option text
-  const speakOptionText = (text) => {
-    // Use browser's text-to-speech API
-    if ('speechSynthesis' in window) {
-      // Cancel any ongoing speech
-      window.speechSynthesis.cancel();
-      
-      const utterance = new SpeechSynthesisUtterance(text);
-      window.speechSynthesis.speak(utterance);
-    } else {
-      console.error("Text-to-speech not supported in this browser");
-      toast.warning("Audio playback not supported in your browser", {
-        position: "top-center",
-        autoClose: 2000,
-      });
-    }
-  };
-
   const handleOptionSelect = (optionId, optionText) => {
     if (!isChecking) {
       setSelectedOption(optionId);
       setShowStatus(false);
-      
-      // Speak the option text when selected
-      speakOptionText(optionText);
+
+      // Use the speak function from the custom hook
+      speak(optionText, optionId);
     }
   };
 
@@ -269,7 +253,6 @@ const Lesson = () => {
               <div className="w-6 h-6 rounded-full bg-gray-100 mt-2 flex items-center justify-center text-xs text-gray-700 border border-gray-200">
                 {option.id}
               </div>
-            
             </button>
           ))}
         </div>

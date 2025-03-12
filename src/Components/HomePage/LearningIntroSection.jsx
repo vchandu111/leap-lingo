@@ -1,5 +1,5 @@
 import React from 'react';
-
+import lingoImage from '../../assets/images/lingo.svg';
 const LearningIntroSection = () => {
   return (
     <div className="w-full py-12 px-4 bg-white mt-20  border-gray-100">
@@ -8,7 +8,7 @@ const LearningIntroSection = () => {
           {/* Mascot image */}
           <div className="w-full md:w-1/4 flex justify-center">
             <img 
-              src="../../../public/assets/images/lingo.svg" 
+              src={lingoImage}
               alt="Leap Lingo Mascot" 
               className="w-32 md:w-40"
             />
