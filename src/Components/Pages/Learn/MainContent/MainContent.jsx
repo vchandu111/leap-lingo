@@ -56,8 +56,15 @@ const MainContent = () => {
           
           {index < units.length - 1 && (
             <div className="flex flex-col items-center gap-4 py-2">
-              <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center ml-12">
-                <Star className="text-green-500" size={24} />
+              <div className="relative w-12 h-12 rounded-full bg-green-100 flex items-center justify-center ml-12 mt-20 cursor-pointer group">
+                <div className="absolute -top-10 bg-green-500 text-white text-sm px-3 py-1 rounded pointer-events-none animate-bounce">
+                  START
+                </div>
+                <Star 
+                  onClick={()=>navigate("/lesson")} 
+                  className="text-green-400 transform transition-transform duration-200 hover:scale-110" 
+                  size={24}
+                />
               </div>
               <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center -ml-12">
                 <Book className="text-gray-400" size={24} />

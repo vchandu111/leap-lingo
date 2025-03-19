@@ -1,109 +1,67 @@
 {
   "questions": [
     {
-      "question": "Which one of these means \"hello\" in French?",
+      "type": "FIB",
+      "question": "Él es un ___ .",
       "options": [
-        {
-          "text": "au revoir",
-          "icon": "Hand",
-          "id": 1
-        },
-        {
-          "text": "bonjour",
-          "icon": "Sun",
-          "id": 2
-        },
-        {
-          "text": "merci",
-          "icon": "Heart",
-          "id": 3
-        }
+        { "text": "manzana", "id": 1 },
+        { "text": "tú", "id": 2 },
+        { "text": "eres", "id": 3 },
+        { "text": "hombre", "id": 4 }
       ],
-      "answer": 2
+      "answer": 4
     },
     {
-      "question": "What is the correct translation for \"I would like\"?",
+      "type": "FIB",
+      "question": "Ella come una ___ .",
       "options": [
-        {
-          "text": "je veux",
-          "icon": "Grab",
-          "id": 1
-        },
-        {
-          "text": "j'ai",
-          "icon": "Package",
-          "id": 2
-        },
-        {
-          "text": "je voudrais",
-          "icon": "Gift",
-          "id": 3
-        }
-      ],
-      "answer": 3
-    },
-    {
-      "question": "Choose the correct way to ask \"What's your name?\" in French:",
-      "options": [
-        {
-          "text": "Comment tu t'appelles?",
-          "icon": "UserCircle",
-          "id": 1
-        },
-        {
-          "text": "Où habites-tu?",
-          "icon": "Home",
-          "id": 2
-        },
-        {
-          "text": "Quel âge as-tu?",
-          "icon": "Calendar",
-          "id": 3
-        }
+        { "text": "manzana", "id": 1 },
+        { "text": "auto", "id": 2 },
+        { "text": "casa", "id": 3 },
+        { "text": "libro", "id": 4 }
       ],
       "answer": 1
     },
     {
-      "question": "Which word means \"water\" in French?",
+      "type": "FIB",
+      "question": "Nosotros vamos al ___ .",
       "options": [
-        {
-          "text": "le pain",
-          "icon": "Bread",
-          "id": 1
-        },
-        {
-          "text": "l'eau",
-          "icon": "Droplets",
-          "id": 2
-        },
-        {
-          "text": "le vin",
-          "icon": "Wine",
-          "id": 3
-        }
+        { "text": "cielo", "id": 1 },
+        { "text": "sol", "id": 2 },
+        { "text": "cine", "id": 3 },
+        { "text": "río", "id": 4 }
+      ],
+      "answer": 3
+    },
+    {
+      "type": "MCQ",
+      "question": "Which one of these means \"hello\" in French?",
+      "options": [
+        { "text": "au revoir", "icon": "Hand", "id": 1 },
+        { "text": "bonjour", "icon": "Sun", "id": 2 },
+        { "text": "merci", "icon": "Heart", "id": 3 }
       ],
       "answer": 2
     },
     {
-      "question": "What is the correct word for \"cat\" in French?",
+      "type": "MCQ",
+      "question": "What is the correct translation for \"I would like\" in French?",
       "options": [
-        {
-          "text": "le chien",
-          "icon": "Dog",
-          "id": 1
-        },
-        {
-          "text": "l'oiseau",
-          "icon": "Bird",
-          "id": 2
-        },
-        {
-          "text": "le chat",
-          "icon": "Cat",
-          "id": 3
-        }
+        { "text": "je veux", "icon": "Grab", "id": 1 },
+        { "text": "j'ai", "icon": "Package", "id": 2 },
+        { "text": "je voudrais", "icon": "Gift", "id": 3 }
       ],
       "answer": 3
+    },
+    {
+      "type": "MCQ",
+      "question": "Which word means \"water\" in French?",
+      "options": [
+        { "text": "le pain", "icon": "Bread", "id": 1 },
+        { "text": "l'eau", "icon": "Droplets", "id": 2 },
+        { "text": "le vin", "icon": "Wine", "id": 3 }
+      ],
+      "answer": 2
     }
   ]
 }
