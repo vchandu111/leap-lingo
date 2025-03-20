@@ -12,11 +12,17 @@ const FIBComponent = ({
 
   // Handle speaking the entire question
   const handleSpeakQuestion = () => {
-    speak(question.replace("__", selectedOption || "...")); // Replace blank with selected option or placeholder
+    const selectedText =
+      options.find((opt) => opt.id === selectedOption)?.text || "...";
+    speak(question.replace("__", selectedText));
   };
 
   // Split the question text only once and use throughout the component
   const parts = question.split("__");
+
+  // Get the selected option text
+  const selectedText =
+    options.find((opt) => opt.id === selectedOption)?.text || "___";
 
   return (
     <div className="flex flex-col">
@@ -35,9 +41,7 @@ const FIBComponent = ({
           )}
         </button>
         <span>{parts[0]}</span>
-        <span className="underline text-blue-500 px-2">
-          {selectedOption || "___"}
-        </span>
+        <span className="underline text-blue-500 px-2">{selectedText}</span>
         <span>{parts[1]}</span>
       </div>
       <div className="flex justify-center gap-4">
@@ -45,9 +49,9 @@ const FIBComponent = ({
           <button
             key={option.id}
             className={`px-4 py-2 rounded-lg border-2 font-semibold ${
-              selectedOption === option.text ? "bg-blue-200" : "bg-white"
+              selectedOption === option.id ? "bg-blue-200" : "bg-white"
             }`}
-            onClick={() => onOptionSelect(option.text)}
+            onClick={() => onOptionSelect(option.id, option.text)}
           >
             {option.text}
           </button>

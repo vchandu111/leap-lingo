@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, ShoppingBag, User, MoreHorizontal } from 'lucide-react';
+import { Home, ShoppingBag, User, MoreHorizontal,LetterText } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 const Sidebar = () => {
   return (
@@ -11,6 +11,8 @@ const Sidebar = () => {
       <nav className="flex flex-col gap-4">
         <NavItem icon={<Home className="text-blue-400" />} label="LEARN" active link="/learn" />
         <NavItem icon={<ShoppingBag className="text-red-400" />} label="SHOP" link="/shop" />
+        <NavItem icon={<LetterText className="text-green-800" />} label="LETTERS" link="/characters" />
+
         <NavItem icon={<User className="text-purple-400" />} label="PROFILE" link="/profile" />
       </nav>
     </div>

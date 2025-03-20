@@ -11,6 +11,7 @@ import Unit from "./Components/Pages/Learn/Unit/Unit";
 import Login from "./Auth/Login";
 import Signup from "./Auth/Signup";
 import UnitPractice from "./Components/Pages/Learn/Unit/UnitPractice";
+import Characters from "./Components/Pages/Characters";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/lesson" element={<Lesson />} />
         <Route path="/learn" element={<Learn />} />
         <Route path="/learn/:unitId/practice" element={<UnitPractice />} />
+        <Route path="/characters" element={<Characters />} />
 
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />

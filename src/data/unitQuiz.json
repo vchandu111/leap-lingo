@@ -1,0 +1,297 @@
+{
+  "unit1": {
+    "id": 1,
+    "questions": [
+      {
+        "type": "MCQ",
+        "question": "What does 'Buenos días' mean?",
+        "options": [
+          { "text": "Good night", "icon": "Moon", "id": 1 },
+          { "text": "Good morning", "icon": "Sun", "id": 2 },
+          { "text": "Goodbye", "icon": "Hand", "id": 3 }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "FIB",
+        "question": "Él es un ___ .",
+        "options": [
+          { "text": "manzana", "id": 1 },
+          { "text": "tú", "id": 2 },
+          { "text": "eres", "id": 3 },
+          { "text": "hombre", "id": 4 }
+        ],
+        "answer": 4
+      },
+      {
+        "type": "FIB",
+        "question": "Ella come una ___ .",
+        "options": [
+          { "text": "manzana", "id": 1 },
+          { "text": "auto", "id": 2 },
+          { "text": "casa", "id": 3 },
+          { "text": "libro", "id": 4 }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "FIB",
+        "question": "Yo ___ estudiante.",
+        "options": [
+          { "text": "eres", "id": 1 },
+          { "text": "soy", "id": 2 },
+          { "text": "es", "id": 3 },
+          { "text": "son", "id": 4 }
+        ],
+        "answer": 2
+      },
+      
+      {
+        "type": "MCQ",
+        "question": "Choose the correct greeting for evening",
+        "options": [
+          { "text": "Buenos días", "icon": "Sun", "id": 1 },
+          { "text": "Buenas noches", "icon": "Moon", "id": 2 },
+          { "text": "Buenas tardes", "icon": "Sunset", "id": 3 }
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "unit2": {
+    "id": 2,
+    "questions": [
+      {
+        "type": "FIB",
+        "question": "¿Dónde está el ___ ?",
+        "options": [
+          { "text": "baño", "id": 1 },
+          { "text": "casa", "id": 2 },
+          { "text": "mesa", "id": 3 },
+          { "text": "silla", "id": 4 }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "FIB",
+        "question": "El libro está ___ la mesa.",
+        "options": [
+          { "text": "en", "id": 1 },
+          { "text": "sobre", "id": 2 },
+          { "text": "bajo", "id": 3 },
+          { "text": "entre", "id": 4 }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "FIB",
+        "question": "Mi casa está ___ del banco.",
+        "options": [
+          { "text": "cerca", "id": 1 },
+          { "text": "lejos", "id": 2 },
+          { "text": "dentro", "id": 3 },
+          { "text": "fuera", "id": 4 }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "MCQ",
+        "question": "Which word means 'behind'?",
+        "options": [
+          { "text": "delante", "icon": "ArrowRight", "id": 1 },
+          { "text": "detrás", "icon": "ArrowLeft", "id": 2 },
+          { "text": "entre", "icon": "ArrowsHorizontal", "id": 3 }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "MCQ",
+        "question": "Select the word that means 'next to'",
+        "options": [
+          { "text": "junto a", "icon": "SidebarClose", "id": 1 },
+          { "text": "lejos de", "icon": "ArrowRight", "id": 2 },
+          { "text": "dentro de", "icon": "Box", "id": 3 }
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "unit3": {
+    "id": 3,
+    "questions": [
+      {
+        "type": "FIB",
+        "question": "¿Qué ___ hacer hoy?",
+        "options": [
+          { "text": "quieres", "id": 1 },
+          { "text": "tienes", "id": 2 },
+          { "text": "haces", "id": 3 },
+          { "text": "vas", "id": 4 }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "FIB",
+        "question": "Me gusta ___ música.",
+        "options": [
+          { "text": "el", "id": 1 },
+          { "text": "la", "id": 2 },
+          { "text": "los", "id": 3 },
+          { "text": "las", "id": 4 }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "FIB",
+        "question": "¿___ años tienes?",
+        "options": [
+          { "text": "Qué", "id": 1 },
+          { "text": "Cuántos", "id": 2 },
+          { "text": "Cuál", "id": 3 },
+          { "text": "Dónde", "id": 4 }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "MCQ",
+        "question": "Choose the correct question word for 'where'",
+        "options": [
+          { "text": "Cuándo", "icon": "Clock", "id": 1 },
+          { "text": "Dónde", "icon": "MapPin", "id": 2 },
+          { "text": "Por qué", "icon": "HelpCircle", "id": 3 }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "MCQ",
+        "question": "Which phrase asks 'what time is it?'",
+        "options": [
+          { "text": "¿Qué día es?", "icon": "Calendar", "id": 1 },
+          { "text": "¿Qué hora es?", "icon": "Clock", "id": 2 },
+          { "text": "¿Cuándo es?", "icon": "CalendarDays", "id": 3 }
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "unit4": {
+    "id": 4,
+    "questions": [
+      {
+        "type": "FIB",
+        "question": "Yo ___ ir al cine mañana.",
+        "options": [
+          { "text": "quiero", "id": 1 },
+          { "text": "quieres", "id": 2 },
+          { "text": "quiere", "id": 3 },
+          { "text": "queremos", "id": 4 }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "FIB",
+        "question": "Ellos ___ estudiando español.",
+        "options": [
+          { "text": "está", "id": 1 },
+          { "text": "estoy", "id": 2 },
+          { "text": "están", "id": 3 },
+          { "text": "estás", "id": 4 }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "FIB",
+        "question": "Nosotros ___ a la playa.",
+        "options": [
+          { "text": "va", "id": 1 },
+          { "text": "vas", "id": 2 },
+          { "text": "vamos", "id": 3 },
+          { "text": "van", "id": 4 }
+        ],
+        "answer": 3
+      },
+      {
+        "type": "MCQ",
+        "question": "Select the correct form of 'to be' for 'you (formal)'",
+        "options": [
+          { "text": "eres", "icon": "User", "id": 1 },
+          { "text": "es", "icon": "Users", "id": 2 },
+          { "text": "soy", "icon": "UserCircle", "id": 3 }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "MCQ",
+        "question": "Which verb means 'to have'?",
+        "options": [
+          { "text": "ser", "icon": "Circle", "id": 1 },
+          { "text": "tener", "icon": "Grab", "id": 2 },
+          { "text": "estar", "icon": "Target", "id": 3 }
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "unit5": {
+    "id": 5,
+    "questions": [
+      {
+        "type": "FIB",
+        "question": "¿Has ___ a España?",
+        "options": [
+          { "text": "ido", "id": 1 },
+          { "text": "ido", "id": 2 },
+          { "text": "vas", "id": 3 },
+          { "text": "ir", "id": 4 }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "FIB",
+        "question": "Si tuviera tiempo, ___ a la fiesta.",
+        "options": [
+          { "text": "iré", "id": 1 },
+          { "text": "iría", "id": 2 },
+          { "text": "voy", "id": 3 },
+          { "text": "iba", "id": 4 }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "FIB",
+        "question": "Cuando era niño, ___ mucho fútbol.",
+        "options": [
+          { "text": "juego", "id": 1 },
+          { "text": "jugaba", "id": 2 },
+          { "text": "jugué", "id": 3 },
+          { "text": "jugaré", "id": 4 }
+        ],
+        "answer": 2
+      },
+      {
+        "type": "MCQ",
+        "question": "Which tense is used in 'Habré terminado'?",
+        "options": [
+          { "text": "Future Perfect", "icon": "Clock", "id": 1 },
+          { "text": "Simple Future", "icon": "Timer", "id": 2 },
+          { "text": "Present Perfect", "icon": "AlarmCheck", "id": 3 }
+        ],
+        "answer": 1
+      },
+      {
+        "type": "MCQ",
+        "question": "Select the subjunctive form of 'hablar'",
+        "options": [
+          { "text": "hablo", "icon": "MessageCircle", "id": 1 },
+          { "text": "hable", "icon": "MessagesSquare", "id": 2 },
+          { "text": "hablaré", "icon": "MessageSquare", "id": 3 }
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}
+
+
+
+
